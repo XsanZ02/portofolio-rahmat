@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rahmat Surya — Fullstack Developer</title>
+  <meta name="description" content="Portfolio of Rahmat Surya, a Fullstack Developer focused on modern web apps, AI products, and digital systems." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;700&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css?v=20260929">
+</head>
+<body>
+  <header class="nav-wrap">
+    <nav class="nav" aria-label="Primary navigation">
+      <a class="nav-logo" href="#home" aria-label="Go to home section">RAHMAT</a>
+      <ul class="nav-links">
+        <li><a href="#work">WORK</a></li>
+        <li><a href="#services">WHAT I CAN DO</a></li>
+        <li><a href="#about">ABOUT</a></li>
+        <li><a href="#resume">RESUME</a></li>
+      </ul>
+      <div class="nav-right">
+        <button class="icon-btn" id="themeToggle" type="button" aria-label="Switch to dark theme" aria-pressed="false">☾</button>
+        <button class="hire-btn" type="button" data-target="#contact">HIRE ME</button>
+        <button class="icon-btn menu-btn" id="menuBtn" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="mobileMenu">≡</button>
+      </div>
+    </nav>
+
+    <div class="mobile-menu" id="mobileMenu" aria-label="Mobile navigation">
+      <a href="#work">WORK <span aria-hidden="true">↗</span></a>
+      <a href="#services">WHAT I CAN DO <span aria-hidden="true">↗</span></a>
+      <a href="#about">ABOUT <span aria-hidden="true">↗</span></a>
+      <a href="#resume">RESUME <span aria-hidden="true">↗</span></a>
+      <a href="#contact">CONTACT <span aria-hidden="true">↗</span></a>
+    </div>
+  </header>
+
+  <main id="home">
+    <section class="hero" aria-label="Introduction">
+      <h1 class="sr-only">Rahmat Surya Putra Dilaga — Fullstack Developer</h1>
+
+      <div class="hero-background-name" aria-hidden="true">
+        <div class="hero-background-track">
+          <div class="hero-name-group">
+            <span>RAHMAT SURYA PUTRA DILAGA</span>
+            <span>RAHMAT SURYA PUTRA DILAGA</span>
+          </div>
+          <div class="hero-name-group">
+            <span>RAHMAT SURYA PUTRA DILAGA</span>
+            <span>RAHMAT SURYA PUTRA DILAGA</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="portrait-wrap" id="portrait">
+        <img src="assets/images/2374.png" alt="Rahmat Surya" class="portrait-image" id="portraitImg" fetchpriority="high" decoding="async" draggable="false" />
+      </div>
+
+      <div class="hero-info">
+        <p class="role">FULLSTACK DEVELOPER</p>
+        <p class="tagline">Building modern web experiences, reliable systems, and AI-powered digital products that solve real-world problems.</p>
+        <div class="cta-row">
+          <a class="cta-primary" href="#work">VIEW MY WORK <span aria-hidden="true">↗</span></a>
+          <a class="cta-secondary" href="#contact">CONTACT ME</a>
+        </div>
+      </div>
+
+      <a class="scroll-indicator" href="#work" aria-label="Scroll to selected work">
+        <span>SCROLL TO EXPLORE</span>
+        <div class="arrow" aria-hidden="true"></div>
+      </a>
+    </section>
+
+    <section class="work-section" id="work" aria-labelledby="work-title">
+      <div class="section-heading reveal">
+        <div>
+          <div class="eyebrow">SELECTED WORK</div>
+          <h2 id="work-title">Work Gallery</h2>
+        </div>
+        <a class="view-all" href="https://github.com/XsanZ02?tab=repositories" target="_blank" rel="noopener noreferrer">ALL REPOSITORIES ↗</a>
+      </div>
+
+      <div class="project-gallery reveal" aria-label="Galeri proyek">
+        <div class="project-gallery-header">
+          <p><span class="project-current">01</span> / <span class="project-total">08</span> PROJECTS</p>
+          <div class="project-gallery-controls">
+            <button class="project-slider-button" type="button" data-project-direction="previous" aria-label="Proyek sebelumnya">←</button>
+            <button class="project-slider-button" type="button" data-project-direction="next" aria-label="Proyek berikutnya">→</button>
+          </div>
+        </div>
+
+        <div class="project-grid" tabindex="0" aria-label="Slide proyek. Gunakan tombol panah untuk berpindah.">
+        <article class="project-card reveal" id="project-web-outlet-os">
+          <a href="https://github.com/XsanZ02/web-outlet-os" class="project-link" target="_blank" rel="noopener noreferrer" aria-label="Buka kode Web Outlet OS di GitHub">
+            <div class="project-visual">
+              <img src="assets/images/projects/outlet.png" alt="Mockup dashboard Web Outlet OS" loading="lazy" width="720" height="480" />
+              <span class="project-visual-label">DASHBOARD SYSTEM</span>
+            </div>
+            <div class="project-content">
+              <div class="project-topline"><span>01</span><span class="project-source"><img class="project-avatar" src="https://avatars.githubusercontent.com/u/136302662?s=48&amp;v=4" alt="" loading="lazy" />GITHUB REPOSITORY</span></div>
+              <h3>Web Outlet OS</h3>
+              <p>Sistem manajemen outlet berbasis web untuk mengelola produk, transaksi, stok, dan operasional outlet dalam satu platform terintegrasi.</p>
+              <div class="project-meta"><span>WEB APP</span><span>INVENTORY</span><span>TRANSACTIONS</span></div>
+              <span class="project-more">VIEW SOURCE ON GITHUB ↗</span>
+            </div>
+          </a>
+        </article>
+
+        <article class="project-card project-card--narrow reveal" id="project-web-orchid">
+          <a href="https://github.com/XsanZ02/web-orchid" class="project-link" target="_blank" rel="noopener noreferrer" aria-label="Buka kode Web Orchid di GitHub">
+            <div class="project-visual">
+              <img src="assets/images/projects/orchid.png" alt="Mockup sistem klasifikasi tanaman anggrek" loading="lazy" width="720" height="480" />
+              <span class="project-visual-label">AI CLASSIFICATION</span>
+            </div>
+            <div class="project-content">
+              <div class="project-topline"><span>02</span><span class="project-source"><img class="project-avatar" src="https://avatars.githubusercontent.com/u/136302662?s=48&amp;v=4" alt="" loading="lazy" />GITHUB REPOSITORY</span></div>
+              <h3>Web Orchid</h3>
+              <p>Aplikasi AI untuk klasifikasi penyakit tanaman anggrek menggunakan Custom CNN dan computer vision berbasis gambar.</p>
+              <div class="project-meta"><span>AI</span><span>COMPUTER VISION</span><span>PYTHON</span></div>
+              <span class="project-more">VIEW SOURCE ON GITHUB ↗</span>
+            </div>
+          </a>
+        </article>
+
+        <article class="project-card project-card--narrow reveal" id="project-dramakita">
+          <a href="https://github.com/XsanZ02/dramakita" class="project-link" target="_blank" rel="noopener noreferrer" aria-label="Buka kode DramaKita di GitHub">
+            <div class="project-visual">
+              <img src="assets/images/projects/drama-kita.png" alt="Mockup situs eksplorasi drama DramaKita" loading="lazy" width="720" height="480" />
+              <span class="project-visual-label">CULTURAL EXPLORER</span>
+            </div>
+            <div class="project-content">
+              <div class="project-topline"><span>03</span><span class="project-source"><img class="project-avatar" src="https://avatars.githubusercontent.com/u/136302662?s=48&amp;v=4" alt="" loading="lazy" />GITHUB REPOSITORY</span></div>
+              <h3>DramaKita</h3>
+              <p>Platform web untuk eksplorasi dan penyajian informasi drama dengan antarmuka interaktif dan responsif.</p>
+              <div class="project-meta"><span>WEB PLATFORM</span><span>RESPONSIVE</span><span>CONTENT</span></div>
+              <span class="project-more">VIEW SOURCE ON GITHUB ↗</span>
+            </div>
+          </a>
+        </article>
+
+        <article class="project-card project-card--wide reveal" id="project-web-inventory">
+          <a href="https://github.com/XsanZ02/web-inventory" class="project-link" target="_blank" rel="noopener noreferrer" aria-label="Buka kode Web Inventory di GitHub">
+            <div class="project-visual">
+              <img src="assets/images/projects/web-inventory.png" alt="Mockup sistem manajemen inventaris" loading="lazy" width="720" height="480" />
+              <span class="project-visual-label">STOCK CONTROL</span>
+            </div>
+            <div class="project-content">
+              <div class="project-topline"><span>04</span><span class="project-source"><img class="project-avatar" src="https://avatars.githubusercontent.com/u/136302662?s=48&amp;v=4" alt="" loading="lazy" />GITHUB REPOSITORY</span></div>
+              <h3>Web Inventory</h3>
+              <p>Sistem manajemen inventaris untuk mengelola produk, supplier, transaksi, dan pergerakan stok secara terintegrasi.</p>
+              <div class="project-meta"><span>INVENTORY</span><span>DATABASE</span><span>REPORTS</span></div>
+              <span class="project-more">VIEW SOURCE ON GITHUB ↗</span>
+            </div>
+          </a>
+        </article>
+
+        <article class="project-card project-card--wide reveal" id="project-system-photobooth">
+          <a href="https://github.com/XsanZ02/system-photobooth" class="project-link" target="_blank" rel="noopener noreferrer" aria-label="Buka kode System Photobooth di GitHub">
+            <div class="project-visual">
+              <img src="assets/images/projects/photobooth.png" alt="Mockup aplikasi photobooth" loading="lazy" width="720" height="480" />
+              <span class="project-visual-label">PHOTO STUDIO</span>
+            </div>
+            <div class="project-content">
+              <div class="project-topline"><span>05</span><span class="project-source"><img class="project-avatar" src="https://avatars.githubusercontent.com/u/136302662?s=48&amp;v=4" alt="" loading="lazy" />GITHUB REPOSITORY</span></div>
+              <h3>System Photobooth</h3>
+              <p>Aplikasi photobooth berbasis web untuk mengambil, mengelola, dan menyimpan hasil foto secara digital.</p>
+              <div class="project-meta"><span>CAMERA</span><span>STORAGE</span><span>WEB</span></div>
+              <span class="project-more">VIEW SOURCE ON GITHUB ↗</span>
+            </div>
+          </a>
+        </article>
+
+        <article class="project-card reveal" id="project-kita-downloader">
+          <a href="https://github.com/XsanZ02/Kita-Downloader" class="project-link" target="_blank" rel="noopener noreferrer" aria-label="Buka kode Kita Downloader di GitHub">
+            <div class="project-visual">
+              <img src="assets/images/projects/downloader.png" alt="Mockup aplikasi Kita Downloader" loading="lazy" width="720" height="480" />
+              <span class="project-visual-label">DOWNLOAD FLOW</span>
+            </div>
+            <div class="project-content">
+              <div class="project-topline"><span>06</span><span class="project-source"><img class="project-avatar" src="https://avatars.githubusercontent.com/u/136302662?s=48&amp;v=4" alt="" loading="lazy" />GITHUB REPOSITORY</span></div>
+              <h3>Kita Downloader</h3>
+              <p>Aplikasi web untuk mempermudah proses pengunduhan konten digital melalui antarmuka yang sederhana dan responsif.</p>
+              <div class="project-meta"><span>DOWNLOAD</span><span>RESPONSIVE</span><span>UX</span></div>
+              <span class="project-more">VIEW SOURCE ON GITHUB ↗</span>
+            </div>
+          </a>
+        </article>
+
+        <article class="project-card reveal" id="project-ai-video-clipper">
+          <a href="https://github.com/XsanZ02/ai-video-clippe" class="project-link" target="_blank" rel="noopener noreferrer" aria-label="Buka kode AI Video Clipper di GitHub">
+            <div class="project-visual">
+              <img src="assets/images/projects/ai-clipper.png" alt="Mockup sistem pemotongan video AI" loading="lazy" width="720" height="480" />
+              <span class="project-visual-label">AI VIDEO TOOL</span>
+            </div>
+            <div class="project-content">
+              <div class="project-topline"><span>07</span><span class="project-source"><img class="project-avatar" src="https://avatars.githubusercontent.com/u/136302662?s=48&amp;v=4" alt="" loading="lazy" />GITHUB REPOSITORY</span></div>
+              <h3>AI Video Clipper</h3>
+              <p>Project AI untuk mengeksplorasi otomatisasi proses pemotongan video dan identifikasi bagian konten yang relevan.</p>
+              <div class="project-meta"><span>AI</span><span>VIDEO</span><span>AUTOMATION</span></div>
+              <span class="project-more">VIEW SOURCE ON GITHUB ↗</span>
+            </div>
+          </a>
+        </article>
+
+        <article class="project-card reveal" id="project-wedding-rifki-afrida">
+          <a href="https://github.com/XsanZ02/wedding-rifki-afrida" class="project-link" target="_blank" rel="noopener noreferrer" aria-label="Buka kode Wedding Rifki dan Afrida di GitHub">
+            <div class="project-visual">
+              <img src="assets/images/projects/wedding-rifki-afrida.png" alt="Mockup website undangan Wedding Rifki dan Afrida" loading="lazy" width="720" height="480" />
+              <span class="project-visual-label">DIGITAL INVITATION</span>
+            </div>
+            <div class="project-content">
+              <div class="project-topline"><span>08</span><span class="project-source"><img class="project-avatar" src="https://avatars.githubusercontent.com/u/136302662?s=48&amp;v=4" alt="" loading="lazy" />GITHUB REPOSITORY</span></div>
+              <h3>Wedding Rifki &amp; Afrida</h3>
+              <p>Website undangan pernikahan digital dengan desain modern, responsif, dan fitur informasi acara yang interaktif.</p>
+              <div class="project-meta"><span>INVITATION</span><span>RESPONSIVE</span><span>EVENT</span></div>
+              <span class="project-more">VIEW SOURCE ON GITHUB ↗</span>
+            </div>
+          </a>
+        </article>
+        </div>
+
+        <div class="project-slider-dots" aria-label="Pilih proyek">
+          <button type="button" class="project-dot is-active" data-project-index="0" aria-label="Tampilkan proyek 1" aria-current="true"></button>
+          <button type="button" class="project-dot" data-project-index="1" aria-label="Tampilkan proyek 2"></button>
+          <button type="button" class="project-dot" data-project-index="2" aria-label="Tampilkan proyek 3"></button>
+          <button type="button" class="project-dot" data-project-index="3" aria-label="Tampilkan proyek 4"></button>
+          <button type="button" class="project-dot" data-project-index="4" aria-label="Tampilkan proyek 5"></button>
+          <button type="button" class="project-dot" data-project-index="5" aria-label="Tampilkan proyek 6"></button>
+          <button type="button" class="project-dot" data-project-index="6" aria-label="Tampilkan proyek 7"></button>
+          <button type="button" class="project-dot" data-project-index="7" aria-label="Tampilkan proyek 8"></button>
+        </div>
+        <p class="project-swipe-hint">SWIPE OR USE ARROW KEYS TO EXPLORE</p>
+      </div>
+    </section>
+
+    <section class="services-section" id="services" aria-labelledby="services-title">
+      <div class="section-heading reveal">
+        <div>
+          <div class="eyebrow">WHAT I CAN DO</div>
+          <h2 id="services-title">Core Services</h2>
+        </div>
+      </div>
+
+      <div class="services-grid">
+        <article class="service-card reveal">
+          <span class="service-index">01</span>
+          <h3>Fullstack Web Development</h3>
+          <p>End-to-end product development from interface design to backend APIs, database logic, and deployment readiness.</p>
+          <div class="service-technologies" aria-label="Example technologies">
+            <span class="technology"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg" alt="" /><span>Next.js</span></span>
+            <span class="technology"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" alt="" /><span>React</span></span>
+            <span class="technology"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/laravel/laravel-original.svg" alt="" /><span>Laravel</span></span>
+          </div>
+        </article>
+        <article class="service-card reveal">
+          <span class="service-index">02</span>
+          <h3>Frontend Experience</h3>
+          <p>Responsive, clean, and conversion-focused interfaces using modern JavaScript frameworks and polished UI systems.</p>
+          <div class="service-technologies" aria-label="Example technologies">
+            <span class="technology"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" alt="" /><span>React</span></span>
+            <span class="technology"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg" alt="" /><span>TypeScript</span></span>
+            <span class="technology"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg" alt="" /><span>Tailwind</span></span>
+          </div>
+        </article>
+        <article class="service-card reveal">
+          <span class="service-index">03</span>
+          <h3>Backend & API Development</h3>
+          <p>Robust business logic, authentication flows, and API design that scale with real product needs.</p>
+          <div class="service-technologies" aria-label="Example technologies">
+            <span class="technology"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/php/php-original.svg" alt="" /><span>PHP</span></span>
+            <span class="technology"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/laravel/laravel-original.svg" alt="" /><span>Laravel</span></span>
+            <span class="technology"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg" alt="" /><span>Node.js</span></span>
+          </div>
+        </article>
+        <article class="service-card reveal">
+          <span class="service-index">04</span>
+          <h3>Database Integration</h3>
+          <p>Data modeling, schema design, and query optimization for reliable data-driven application experiences.</p>
+          <div class="service-technologies" aria-label="Example technologies">
+            <span class="technology"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original.svg" alt="" /><span>MySQL</span></span>
+            <span class="technology"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/prisma/prisma-original.svg" alt="" /><span>Prisma</span></span>
+          </div>
+        </article>
+        <article class="service-card reveal">
+          <span class="service-index">05</span>
+          <h3>AI & Machine Learning</h3>
+          <p>Practical AI implementations for image classification, decision support, automation, and intelligent product features.</p>
+          <div class="service-technologies" aria-label="Example technologies">
+            <span class="technology"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" alt="" /><span>Python</span></span>
+            <span class="technology"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tensorflow/tensorflow-original.svg" alt="" /><span>TensorFlow</span></span>
+          </div>
+        </article>
+        <article class="service-card reveal">
+          <span class="service-index">06</span>
+          <h3>UI Implementation</h3>
+          <p>Clean component architecture and product-level implementation that balance visual quality with maintainability.</p>
+          <div class="service-technologies" aria-label="Example technologies">
+            <span class="technology"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" alt="" /><span>HTML</span></span>
+            <span class="technology"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" alt="" /><span>CSS</span></span>
+            <span class="technology"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/figma/figma-original.svg" alt="" /><span>Figma</span></span>
+          </div>
+        </article>
+        <article class="service-card reveal">
+          <span class="service-index">07</span>
+          <h3>Java &amp; Apache NetBeans</h3>
+          <p>Java application development with Apache NetBeans for desktop and web-based software projects.</p>
+          <div class="service-technologies" aria-label="Technologies">
+            <span class="technology"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg" alt="" /><span>Java</span></span>
+            <span class="technology"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/apache/apache-original.svg" alt="" /><span>Apache NetBeans</span></span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="about-section" id="about" aria-labelledby="about-title">
+      <div class="section-heading reveal">
+        <div>
+          <div class="eyebrow">ABOUT</div>
+          <h2 id="about-title">A developer focused on useful systems.</h2>
+        </div>
+      </div>
+
+      <div class="about-grid reveal">
+        <aside class="profile-card" aria-label="Profil pengguna">
+          <div class="profile-photo-wrap">
+            <img class="profile-photo" src="assets/images/2374.png" alt="Rahmat Surya Putra Dilaga" loading="lazy" width="720" height="840" />
+            <span class="profile-availability"><i></i> AVAILABLE FOR WORK</span>
+          </div>
+          <div class="profile-details">
+            <span class="tiny-label">FULL NAME</span>
+            <h3>Rahmat Surya Putra Dilaga</h3>
+            <p>Fullstack Developer · INSTIKI</p>
+            <div class="profile-links">
+              <a href="https://instagram.com/agaa.pd" target="_blank" rel="noopener noreferrer" aria-label="Instagram agaa.pd">Instagram <span>@agaa.pd</span></a>
+              <a href="https://github.com/XsanZ02" target="_blank" rel="noopener noreferrer" aria-label="GitHub XsanZ02">GitHub <span>@XsanZ02</span></a>
+              <a href="mailto:rahmatsuryaputradilaga20@gmail.com">Email <span>rahmatsuryaputradilaga20@gmail.com</span></a>
+            </div>
+          </div>
+        </aside>
+
+        <div class="about-copy">
+          <div class="about-copy-heading">
+            <span class="tiny-label">ABOUT ME</span>
+            <h3>Technology, business, and meaningful solutions.</h3>
+          </div>
+          <p>I am Rahmat Surya Putra Dilaga, an Informatics student at Institut Bisnis dan Teknologi Indonesia (INSTIKI), with a strong interest in technology, business, and digital innovation. I enjoy turning ideas and real-world problems into practical digital solutions through full-stack development, information systems, and AI-powered applications.</p>
+          <p>Throughout my academic and professional journey, I have worked on various web and software projects, including database-driven applications, machine learning, computer vision, and sentiment analysis. I also served as a Teaching Assistant for Web Programming at INSTIKI, helping students understand programming concepts, troubleshoot technical issues, and complete practical assignments.</p>
+          <p>My professional experience includes contributing to technology projects at Puspem Kabupaten Badung and digital heritage initiatives focused on documenting Balinese culture through digital metadata, 3D assets, and virtual experiences. I am continuously developing my skills as a software engineer, with a focus on building useful, reliable, and meaningful digital products.</p>
+        </div>
+      </div>
+
+      <div class="experience-section reveal" aria-labelledby="experience-title">
+        <div class="experience-heading">
+          <span class="eyebrow">ACADEMIC EXPERIENCE</span>
+          <h3 id="experience-title">Assistant Lecturer Experience</h3>
+          <p>Supported two different lecturers with the same course: Web Programming.</p>
+        </div>
+        <div class="experience-list">
+          <article class="experience-item">
+            <div class="experience-number">01</div>
+            <div>
+              <span class="tiny-label">ASSISTENT LECTURER</span>
+              <h4>Ketut Jaya Atmaja, S.Kom., M.Kom.</h4>
+              <p>Web Programming</p>
+            </div>
+            <span class="experience-status">PEDAGOGICAL SUPPORT</span>
+          </article>
+          <article class="experience-item">
+            <div class="experience-number">02</div>
+            <div>
+              <span class="tiny-label">ASSISTENT LECTURER</span>
+              <h4>Ida Bagus Ary Indra Iswara, S.Kom., M.Kom.</h4>
+              <p>Web Programming</p>
+            </div>
+            <span class="experience-status">PEDAGOGICAL SUPPORT</span>
+          </article>
+        </div>
+      </div>
+
+      <div class="certifications reveal" aria-labelledby="certifications-title">
+        <div class="certifications-heading">
+          <span class="eyebrow">PROFESSIONAL DEVELOPMENT</span>
+          <h3 id="certifications-title">Certifications</h3>
+        </div>
+        <div class="certification-list">
+          <article class="certification-item">
+            <span class="tiny-label">MAY 31, 2025</span>
+            <h4>Databases Specialist</h4>
+            <p>Certiport</p>
+          </article>
+          <article class="certification-item">
+            <span class="tiny-label">MAY 31, 2025</span>
+            <h4>Microsoft Office Specialist</h4>
+            <p>Certiport</p>
+          </article>
+          <article class="certification-item">
+            <span class="tiny-label">MAY 31, 2026</span>
+            <h4>TOEIC Certificate</h4>
+            <p>Institut Bisnis dan Teknologi Indonesia</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="resume-section" id="resume" aria-labelledby="resume-title">
+      <div class="section-heading reveal">
+        <div>
+          <div class="eyebrow">RESUME</div>
+          <h2 id="resume-title">Profile & capabilities</h2>
+        </div>
+      </div>
+
+      <div class="resume-layout reveal">
+        <div class="resume-card">
+          <h3>Education</h3>
+          <ul>
+            <li><strong>Institut Bisnis dan Teknologi Indonesia (INSTIKI)</strong><br>Student focused on information technology and business.<br><a href="https://id.linkedin.com/in/rahmat-surya-putra-dilaga-10080a364" target="_blank" rel="noopener noreferrer">View professional profile ↗</a></li>
+          </ul>
+        </div>
+
+        <div class="resume-card">
+          <h3>Experience</h3>
+          <ul>
+            <li><strong>Puspem Kabupaten Badung</strong><br>Professional activities and internship experience in a local government environment.<br><a href="https://id.linkedin.com/in/rahmat-surya-putra-dilaga-10080a364" target="_blank" rel="noopener noreferrer">View professional profile ↗</a></li>
+          </ul>
+        </div>
+
+        <div class="resume-card">
+          <h3>Research & Contributions</h3>
+          <ul>
+            <li><strong>Research</strong><br>Collaborative research on digital transformation and competitiveness, and a separate work in the 2024 IMADE conference proceedings with Putu Agus Rama Abdiyasa.<br><a href="https://eprosiding.idbbali.ac.id/index.php/imade/issue/current" target="_blank" rel="noopener noreferrer">IMADE proceedings ↗</a> · <a href="https://ejournal.sidyanusa.org/index.php/jike/article/download/890/564/3929" target="_blank" rel="noopener noreferrer">Related publication ↗</a></li>
+            <li><strong>Nusa Heritage ID</strong><br>Contributed metadata and descriptions for tangible cultural heritage objects at Pura Desa lan Puseh Desa Adat Samu.<br><a href="https://www.nusaheritage.id/koleksi-warisan-berwujud-preview/pura-desa-lan-puseh-desa-adat-samu/pariangan-ratu-gede-desa" target="_blank" rel="noopener noreferrer">Pariangan Ratu Gede Desa ↗</a> · <a href="https://www.nusaheritage.id/koleksi-warisan-berwujud-preview/pura-desa-lan-puseh-desa-adat-samu/ratu-keuningan" target="_blank" rel="noopener noreferrer">Ratu Keuningan ↗</a></li>
+          </ul>
+        </div>
+
+        <div class="resume-card">
+          <h3>Skills</h3>
+          <div class="skill-list">
+            <span>Next.js</span>
+            <span>React</span>
+            <span>TypeScript</span>
+            <span>Laravel</span>
+            <span>Python</span>
+            <span>TensorFlow</span>
+            <span>MySQL</span>
+            <span>Prisma</span>
+            <span>Tailwind CSS</span>
+            <span>REST API</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="resume-actions reveal">
+        <a class="cta-primary" href="#contact">REQUEST CV</a>
+        <a class="cta-secondary" href="#contact">CONTACT ME</a>
+      </div>
+    </section>
+
+    <section class="contact-section" id="contact" aria-labelledby="contact-title">
+      <div class="section-heading reveal">
+        <div>
+          <div class="eyebrow">CONTACT</div>
+          <h2 id="contact-title">Let’s build something meaningful.</h2>
+        </div>
+      </div>
+
+      <div class="contact-layout reveal">
+        <div class="contact-card">
+          <p class="contact-kicker">Available for selected freelance, product, and full-time opportunities.</p>
+          <ul class="contact-list">
+            <li><span>Phone</span><a href="tel:+6285183388419">0851 8338 8419</a></li>
+            <li><span>Email</span><a href="mailto:rahmatsuryaputradilaga20@gmail.com">rahmatsuryaputradilaga20@gmail.com</a></li>
+            <li><span>LinkedIn</span><a href="https://id.linkedin.com/in/rahmat-surya-putra-dilaga-10080a364" target="_blank" rel="noopener noreferrer">Rahmat Surya Putra Dilaga ↗</a></li>
+            <li><span>GitHub</span><a href="https://github.com/XsanZ02" target="_blank" rel="noopener noreferrer">github.com/XsanZ02 ↗</a></li>
+          </ul>
+        </div>
+
+        <form class="contact-form" id="contact-form" action="https://formsubmit.co/rahmatsuryaputradilaga20@gmail.com" method="POST" novalidate>
+          <input type="hidden" name="_subject" value="New portfolio inquiry — Rahmat Surya">
+          <input type="hidden" name="_template" value="table">
+          <div class="field-row">
+            <label>
+              <span>Name</span>
+              <input type="text" name="name" placeholder="Your name" required />
+            </label>
+            <label>
+              <span>Email</span>
+              <input type="email" name="email" placeholder="you@example.com" required />
+            </label>
+          </div>
+
+          <label>
+            <span>Project / Inquiry</span>
+            <input type="text" name="subject" placeholder="What would you like to build?" required />
+          </label>
+
+          <label>
+            <span>Message</span>
+            <textarea name="message" rows="5" placeholder="Tell me a little about your project or role." required></textarea>
+          </label>
+
+          <button class="cta-primary submit-btn" type="submit">SEND INQUIRY</button>
+          <p class="form-status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <dialog class="project-dialog" id="projectDialog" aria-labelledby="projectDialogTitle">
+    <button class="project-dialog-close" type="button" aria-label="Tutup detail proyek">×</button>
+    <div class="project-dialog-content">
+      <div class="project-dialog-image-wrap">
+        <img id="projectDialogImage" src="" alt="" />
+      </div>
+      <div class="project-dialog-copy">
+        <p class="project-dialog-eyebrow" id="projectDialogEyebrow">SELECTED PROJECT</p>
+        <h2 id="projectDialogTitle"></h2>
+        <p id="projectDialogDescription"></p>
+        <div class="project-dialog-meta" id="projectDialogMeta"></div>
+        <a class="project-dialog-link" id="projectDialogLink" href="#" target="_blank" rel="noopener noreferrer">VIEW SOURCE ON GITHUB ↗</a>
+      </div>
+    </div>
+  </dialog>
+
+  <script src="assets/js/script.js?v=20260929" defer></script>
+</body>
+</html>

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 900" role="img" aria-labelledby="title desc">
+  <title id="title">Rahmat profile placeholder</title>
+  <desc id="desc">A clean editorial portrait placeholder for a portfolio profile image.</desc>
+  <defs>
+    <linearGradient id="shirt" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#1a1a18"/>
+      <stop offset="100%" stop-color="#40433d"/>
+    </linearGradient>
+  </defs>
+
+  <path d="M115 900V700c0-100 70-175 170-190l75 88 75-88c100 15 170 90 170 190v200H115z" fill="url(#shirt)"/>
+  <path d="M285 325c0-85 50-143 120-143s120 58 120 143c0 56-28 103-68 130l-52 34-52-34c-40-27-68-74-68-130z" fill="#efefe9"/>
+  <path d="M288 328c19-87 91-145 177-145 81 0 134 48 154 122-26 24-65 39-119 48-42 8-92 10-140 0-22-5-50-19-72-25z" fill="#d2d4ce" opacity="0.8"/>
+  <circle cx="360" cy="214" r="98" fill="#deddd7"/>
+  <path d="M290 218c28-52 70-81 111-81 52 0 93 36 112 89-28-16-68-33-111-33-45 0-82 9-112 25z" fill="#565752"/>
+</svg>
