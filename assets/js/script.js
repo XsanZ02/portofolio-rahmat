@@ -148,18 +148,6 @@
   });
 
   var wheelLock = false;
-  window.addEventListener('wheel', function (event) {
-    var target = event.target;
-    var isProjectScroll = target && target.closest && target.closest('.project-grid');
-    var isFormControl = target && target.closest && target.closest('form');
-    if (isProjectScroll || isFormControl || Math.abs(event.deltaY) < 18 || wheelLock) return;
-    event.preventDefault();
-    wheelLock = true;
-    movePage(event.deltaY > 0 ? 1 : -1);
-    window.setTimeout(function () {
-      wheelLock = false;
-    }, reduce ? 20 : 720);
-  }, { passive: false });
 
   document.addEventListener('keydown', function (event) {
     var target = event.target;
@@ -168,12 +156,11 @@
     var inProjectDialog = projectDialog && projectDialog.open && projectDialog.contains(target);
     var key = event.key;
     if (isTyping || inProjectGrid || inProjectDialog || ['Escape', 'Tab'].indexOf(key) !== -1) return;
-    if (key === 'PageDown' || key === 'ArrowDown') {
-      event.preventDefault();
-      movePage(1);
-    } else if (key === 'PageUp' || key === 'ArrowUp') {
-      event.preventDefault();
-      movePage(-1);
+    if ((key === 'PageDown' || key === 'ArrowDown') && !event.altKey && !event.ctrlKey && !event.metaKey) {
+      return;
+    }
+    if ((key === 'PageUp' || key === 'ArrowUp') && !event.altKey && !event.ctrlKey && !event.metaKey) {
+      return;
     }
   });
 
